@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:background="@drawable/buttonnotich"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_margin="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="#444"
+        android:fontFamily="@font/aclonica"
+        android:text="GAME OVER"/>
+    <TextView
+        android:id="@+id/diemso"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/aclonica"
+        android:text="New 120"/>
+    <TextView
+        android:id="@+id/diemcao"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/aclonica"
+        android:text="Best 120"/>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:gravity="center"
+            android:id="@+id/Again"
+            android:textStyle="bold"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Chơi lại"/>
+        <Button
+            android:id="@+id/menu"
+            android:textStyle="bold"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="VỀ MENU"/>
+    </LinearLayout>
+</LinearLayout>
